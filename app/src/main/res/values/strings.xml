@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Earin Money</string>
+
+    <string name="admod_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="abmod_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="abmod_interstital_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="abmod_RewaedVideAd_id">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="fb_banner_id"></string>
+
+    <string name="fb_interstital_id"></string>
+    <string name="fb_rewarded_id"></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.WinQoapp.earinmoney.Share.WatchActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/coins_Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:drawableEnd="@drawable/money"
+        android:drawableRight="@drawable/money"
+        android:drawablePadding="8dp"
+        android:text="11000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_below="@+id/coins_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Watch video to get free points"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="25dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/watchBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Watch Video" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/watchBtn2"
+        android:text="Watch Video"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/purple_200"/>
+
+
+
+</RelativeLayout>

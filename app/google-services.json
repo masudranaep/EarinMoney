@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "285159387273",
+    "project_id": "moneyapp-45a15",
+    "storage_bucket": "moneyapp-45a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285159387273:android:b5974ab7ba79dafd881658",
+        "android_client_info": {
+          "package_name": "com.WinQoapp.earinmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285159387273-060i25mos3g2praqct8flofvl4sfep1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.WinQoapp.earinmoney",
+            "certificate_hash": "c56346731d9192810148887214c4fddcb7db26a2"
+          }
+        },
+        {
+          "client_id": "285159387273-k4c6k481daonnc163c4m4l10oc648rtn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQPa-LwED_q7aBTANmLwnd-DpZXsFkoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285159387273-k4c6k481daonnc163c4m4l10oc648rtn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+   package="com.example.earinmoney">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EarinMoney"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.WinQoapp.earinmoney.Share.Privacy"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.quiz.ResultActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.Home.LuckspinActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.quiz.QuizplayActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.Share.WatchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.wallet.ReplesActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.Share.ShareActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.quiz.QuizzActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.FrontPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.WinQoapp.earinmoney.Email.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.Email.RegistaerActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.WinQoapp.earinmoney.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6814304072623948~3301294062" />
+    </application>
+
+</manifest>

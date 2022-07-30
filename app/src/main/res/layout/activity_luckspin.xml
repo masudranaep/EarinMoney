@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.WinQoapp.earinmoney.Home.LuckspinActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/nativads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+
+
+            <com.google.android.ads.nativetemplates.TemplateView
+                android:id="@+id/my_template"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                app:gnt_template_type="@layout/gnt_small_template_view">
+
+                <TextView
+                    android:id="@+id/coins_Tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="130dp"
+                    android:drawableEnd="@drawable/money"
+                    android:drawablePadding="8dp"
+                    android:text="8888"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </com.google.android.ads.nativetemplates.TemplateView>
+
+
+        </RelativeLayout>
+
+
+        <com.WinQoapp.earinmoney.Sping.WheelView
+            android:id="@+id/wheelView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            app:BackgroundColor="#ff9800"
+            app:CenterImage="@drawable/wheel2"
+            app:CursorImage="@drawable/ic_cursor"
+            app:TextColor="#263238" />
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+
+
+            android:layout_centerInParent="true"
+            android:layout_margin="32dp"
+            android:backgroundTint="@color/purple_200"
+            android:minWidth="180dp"
+            android:text="Spin the Wheel"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <!--        <Button-->
+<!--            android:id="@+id/watchBtn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:layout_marginBottom="32dp"-->
+<!--            android:backgroundTint="@color/purple_700"-->
+<!--            android:minWidth="180dp"-->
+<!--            android:text="Watch Video"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="normal"-->
+<!--            android:visibility="invisible" />-->
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
